@@ -1,0 +1,70 @@
+html {
+  background-color:#000000;
+  padding: 0 1em;
+}
+body {
+  background-color: #fff;
+  
+}
+p, ul {
+  font-family: 'Sanchez', serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+:root {
+  --yellowish: #0e70c0;
+  --black: #050405;
+
+}
+.topcompanylogo{
+  background-color: var(--black);
+  color: #ffffff;
+  font-family: 'Sanchez', serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color:  #ffffff;
+  height: 188px;
+}
+.logo {
+  background: url('./rss.png') no-repeat;
+  width: 32px;
+  height: 32px;
+  margin: 20px;
+}
+.title-holder {
+  
+ align-items: center;
+}
+.name {
+  color: #000000;
+  font-family: 'Sanchez', serif;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-weight: bold;
+  
+}
+.major {
+  color: #ffffff;
+  font-family: 'Sanchez', serif;
+  text-transform: uppercase;
+}
+.content-body {
+  display: flex;
+  flex-direction: row;
+}
+.wrapper {
+  margin: 20px;
+}
